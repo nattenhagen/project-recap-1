@@ -5,38 +5,56 @@
   text-align: center;
   grid-gap: 26px;
   overflow-y: scroll;
-  background-color: bl;
+  background-color: azure;
+  font-size: 25px;
+  width: 100%;
 }
 
 header {
-  position: relative;
-  margin: 0;
+  position: sticky;
   text-align: center;
   color: black;
+  background-color: steelblue;
+  width: 100%;
 }
 
 .quiz-card {
-  padding: 16px;
+  padding: 8px;
   border-radius: 8px;
   position: relative;
   background-color: lightblue;
+  width: 80%;
 }
 
-.button {
+.button__show__answer {
+  background: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 15px;
+  color: black;
+  width: 150px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  transition-property: background-color;
   text-align: center;
 }
 
 .quiz__card__tag__list {
   display: flex;
-  position: relative;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 1rem;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  font-size: small;
+  margin-top: 3rem;
+  font-size: 16px;
 }
 
-.quiz__card__tag__list ol {
+.quiz__card__tag__list li {
   display: flex;
   background-color: steelblue;
   color: white;
@@ -53,12 +71,15 @@ header {
   height: 10px;
 }
 
-nav {
+.navbar {
   display: flex;
+  justify-content: center;
   justify-content: space-around;
   position: fixed;
+  background-color: white;
+  color: black;
   bottom: 0;
+  font-size: 48px;
   width: 100%;
-  font-size: xx-large;
-  grid-gap: 26px;
+  background-color: steelblue;
 }
