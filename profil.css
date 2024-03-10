@@ -1,0 +1,33 @@
+.app__main {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  grid-gap: 26px;
+  overflow-y: scroll;
+  background-color: azure;
+  font-size: 25px;
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  text-align: center;
+  color: black;
+  background-color: steelblue;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  bottom: 0;
+  font-size: 48px;
+  width: 100%;
+  min-height: 3rem;
+  background-color: steelblue;
+  padding-top: 1rem;
+}
